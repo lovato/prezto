@@ -111,3 +111,7 @@ unset zfunction{s,}
 zstyle -a ':prezto:load' pmodule 'pmodules'
 pmodload "$pmodules[@]"
 unset pmodules
+
+ANDROID_HOME=/opt/android/android-sdk-linux
+PATH=/opt/android/android-sdk-linux/tools/:$PATH
+
