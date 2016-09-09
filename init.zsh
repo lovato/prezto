@@ -112,6 +112,6 @@ zstyle -a ':prezto:load' pmodule 'pmodules'
 pmodload "$pmodules[@]"
 unset pmodules
 
-ANDROID_HOME=/opt/android/android-sdk-linux
-PATH=/opt/android/android-sdk-linux/tools/:$PATH
+export ANDROID_HOME=/opt/android/android-sdk-linux
+export PATH=/opt/android/android-sdk-linux/tools/:$PATH
 
