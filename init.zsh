@@ -113,5 +113,5 @@ pmodload "$pmodules[@]"
 unset pmodules
 
 export ANDROID_HOME=/opt/android/android-sdk-linux
-export PATH=/opt/android/android-sdk-linux/tools/:$PATH
+export PATH=/opt/android/android-sdk-linux/tools/:/opt/android/android-sdk-linux/platform-tools/:$PATH
 
