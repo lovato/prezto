@@ -12,6 +12,10 @@ fi
 
 # Customize to your needs...
 
+if [[ -s "/usr/local/bin/virtualenvwrapper.sh" ]]; then
+  source "/usr/local/bin/virtualenvwrapper.sh"
+fi
+
 # Add homebrew to the completion path
 fpath=("/usr/local/bin/" $fpath)
 
